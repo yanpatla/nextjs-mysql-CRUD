@@ -1,7 +1,13 @@
-import React from 'react';
+import React from "react";
+import Layout from "../components/Layout";
+import ProductForm from "../components/ProductForm";
 
 const NewPage = () => {
-  return <div>NEW</div>;
+  return (
+    <Layout>
+      <ProductForm />
+    </Layout>
+  );
 };
 
 export default NewPage;
