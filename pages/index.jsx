@@ -4,7 +4,6 @@ import React from "react";
 import Layout from "../components/Layout";
 
 const HomePage = ({ products }) => {
-  console.log(products);
   return (
     <Layout>
       {products.map((product) => (
